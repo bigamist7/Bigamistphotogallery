@@ -1,111 +1,183 @@
-
+// Enhanced image data with additional properties for filtering
 export const images = [
   {
     id: 1,
     url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop",
-    name: "Woman with Laptop",
-    tags: ["technology", "work", "laptop", "woman", "bedroom"]
+    name: "Abstract Technology",
+    tags: ["technology", "abstract", "digital"],
+    width: 800,
+    height: 600,
+    color: "blue"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
-    name: "Gray Laptop Computer",
-    tags: ["technology", "laptop", "computer", "workspace", "minimal"]
+    url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=1200&fit=crop",
+    name: "Forest Path",
+    tags: ["nature", "forest", "trees", "path"],
+    width: 800,
+    height: 1200,
+    color: "green"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
-    name: "Circuit Board",
-    tags: ["technology", "electronics", "circuit", "macro", "hardware"]
+    url: "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=800&h=600&fit=crop",
+    name: "Ocean Waves",
+    tags: ["nature", "ocean", "waves", "water"],
+    width: 800,
+    height: 600,
+    color: "blue"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
-    name: "Java Programming",
-    tags: ["programming", "code", "java", "monitor", "development"]
+    url: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=800&h=800&fit=crop",
+    name: "Vintage Camera",
+    tags: ["vintage", "camera", "photography", "retro"],
+    width: 800,
+    height: 800,
+    color: "yellow"
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
-    name: "MacBook Pro",
-    tags: ["technology", "macbook", "apple", "workspace", "coding"]
+    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=1200&fit=crop",
+    name: "Mountain Landscape",
+    tags: ["nature", "mountains", "landscape", "scenic"],
+    width: 800,
+    height: 1200,
+    color: "green"
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&h=600&fit=crop",
-    name: "Mountain Deer",
-    tags: ["nature", "wildlife", "deer", "mountain", "animals"]
+    url: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=600&fit=crop",
+    name: "Modern Architecture",
+    tags: ["architecture", "modern", "building", "design"],
+    width: 800,
+    height: 600,
+    color: "blue"
   },
   {
     id: 7,
-    url: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&h=600&fit=crop",
-    name: "Bridge Waterfall",
-    tags: ["nature", "waterfall", "bridge", "landscape", "scenic"]
+    url: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&h=600&fit=crop",
+    name: "Sunset Landscape",
+    tags: ["sunset", "landscape", "nature", "golden hour"],
+    width: 800,
+    height: 600,
+    color: "orange"
   },
   {
     id: 8,
-    url: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=600&fit=crop",
-    name: "Orange Flowers",
-    tags: ["nature", "flowers", "orange", "garden", "bloom"]
+    url: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=800&h=1200&fit=crop",
+    name: "Tropical Beach",
+    tags: ["beach", "tropical", "palm trees", "paradise"],
+    width: 800,
+    height: 1200,
+    color: "blue"
   },
   {
     id: 9,
-    url: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=800&h=600&fit=crop",
-    name: "River Mountains",
-    tags: ["nature", "river", "mountains", "clouds", "landscape"]
+    url: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=600&fit=crop",
+    name: "Starry Night Sky",
+    tags: ["night", "stars", "sky", "astronomy"],
+    width: 800,
+    height: 600,
+    color: "purple"
   },
   {
     id: 10,
-    url: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800&h=600&fit=crop",
-    name: "Pine Trees",
-    tags: ["nature", "trees", "forest", "pine", "green"]
+    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=800&fit=crop",
+    name: "Desert Dunes",
+    tags: ["desert", "sand", "dunes", "landscape"],
+    width: 800,
+    height: 800,
+    color: "yellow"
   },
   {
     id: 11,
-    url: "https://images.unsplash.com/photo-1527576539890-dfa815648363?w=800&h=600&fit=crop",
-    name: "Modern Architecture",
-    tags: ["architecture", "building", "modern", "geometric", "urban"]
+    url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+    name: "Autumn Forest",
+    tags: ["autumn", "forest", "trees", "colorful"],
+    width: 800,
+    height: 600,
+    color: "orange"
   },
   {
     id: 12,
-    url: "https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=800&h=600&fit=crop",
-    name: "Glass Building",
-    tags: ["architecture", "building", "glass", "urban", "contemporary"]
+    url: "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=800&h=1200&fit=crop",
+    name: "City Skyline",
+    tags: ["city", "skyline", "urban", "buildings"],
+    width: 800,
+    height: 1200,
+    color: "blue"
   },
   {
     id: 13,
-    url: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=600&fit=crop",
-    name: "White Building",
-    tags: ["architecture", "building", "white", "minimal", "clean"]
+    url: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&h=600&fit=crop",
+    name: "Flower Garden",
+    tags: ["flowers", "garden", "nature", "colorful"],
+    width: 800,
+    height: 600,
+    color: "red"
   },
   {
     id: 14,
-    url: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&h=600&fit=crop",
-    name: "Concrete Structure",
-    tags: ["architecture", "concrete", "building", "industrial", "design"]
+    url: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=800&h=800&fit=crop",
+    name: "Wildlife Safari",
+    tags: ["wildlife", "safari", "animals", "nature"],
+    width: 800,
+    height: 800,
+    color: "green"
   },
   {
     id: 15,
-    url: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=800&h=600&fit=crop",
-    name: "Tabby Kitten",
-    tags: ["animals", "cat", "kitten", "pet", "cute"]
+    url: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=1200&fit=crop",
+    name: "Waterfall",
+    tags: ["waterfall", "nature", "water", "landscape"],
+    width: 800,
+    height: 1200,
+    color: "blue"
   },
   {
     id: 16,
-    url: "https://images.unsplash.com/photo-1498936178812-4b2e558d2937?w=800&h=600&fit=crop",
-    name: "Flying Bees",
-    tags: ["animals", "bees", "flying", "nature", "insects"]
+    url: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=800&h=600&fit=crop",
+    name: "Snowy Mountains",
+    tags: ["snow", "mountains", "winter", "landscape"],
+    width: 800,
+    height: 600,
+    color: "blue"
   },
   {
     id: 17,
-    url: "https://images.unsplash.com/photo-1452960962994-acf4fd70b632?w=800&h=600&fit=crop",
-    name: "Sheep Herd",
-    tags: ["animals", "sheep", "herd", "farm", "pastoral"]
+    url: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=800&fit=crop",
+    name: "Vintage Car",
+    tags: ["vintage", "car", "classic", "retro"],
+    width: 800,
+    height: 800,
+    color: "red"
   },
   {
     id: 18,
-    url: "https://images.unsplash.com/photo-1518877593221-1f28583780b4?w=800&h=600&fit=crop",
-    name: "Humpback Whale",
-    tags: ["animals", "whale", "ocean", "marine", "jumping"]
+    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=1200&fit=crop",
+    name: "Abstract Art",
+    tags: ["abstract", "art", "colorful", "design"],
+    width: 800,
+    height: 1200,
+    color: "purple"
+  },
+  {
+    id: 19,
+    url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+    name: "Lighthouse",
+    tags: ["lighthouse", "ocean", "coast", "architecture"],
+    width: 800,
+    height: 600,
+    color: "blue"
+  },
+  {
+    id: 20,
+    url: "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=800&h=800&fit=crop",
+    name: "Hot Air Balloons",
+    tags: ["balloons", "sky", "colorful", "adventure"],
+    width: 800,
+    height: 800,
+    color: "orange"
   }
 ];
