@@ -1,3 +1,4 @@
+
 // Enhanced image data with additional properties for filtering
 export const images = [
   {
@@ -29,7 +30,7 @@ export const images = [
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=800&h=800&fit=crop",
+    url: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&h=800&fit=crop",
     name: "Vintage Camera",
     tags: ["vintage", "camera", "photography", "retro"],
     width: 800,
@@ -119,7 +120,7 @@ export const images = [
   },
   {
     id: 14,
-    url: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=800&h=800&fit=crop",
+    url: "https://images.unsplash.com/photo-1517022812141-23620dba5c23?w=800&h=800&fit=crop",
     name: "Wildlife Safari",
     tags: ["wildlife", "safari", "animals", "nature"],
     width: 800,
