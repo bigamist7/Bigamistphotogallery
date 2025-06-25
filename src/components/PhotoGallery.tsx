@@ -179,7 +179,7 @@ const PhotoGallery: React.FC = () => {
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-gray-500 dark:text-gray-400">
-            <p>© 2024 Photo Gallery. Built with React and Tailwind CSS by jcasanova.pt.</p>
+            <p>© 2025 Photo Gallery. Built with React and Tailwind CSS by jcasanova.pt.</p>
             <p className="mt-2 text-sm">Images provided by Unsplash</p>
           </div>
         </div>
