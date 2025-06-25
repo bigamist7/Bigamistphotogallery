@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ onToggleDarkMode, darkMode }) => {
               <h1 className={`text-2xl font-bold ${
                 darkMode ? 'text-white' : 'text-gray-900'
               }`}>
-                Photo Gallery
+                JCasanova Photo Gallery
               </h1>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Discover and search beautiful images
